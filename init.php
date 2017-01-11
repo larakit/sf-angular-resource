@@ -7,6 +7,7 @@
  * Time: 10:02
  */
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-resource')
-                            ->setSourceDir('public')
-                            ->usePackage('larakit/sf-angular')
-                            ->jsPackage('angular-resource.js');
+    ->setSourceDir('public')
+    ->ngModule('ngResource')
+    ->usePackage('larakit/sf-angular')
+    ->jsPackage('angular-resource.min.js');
