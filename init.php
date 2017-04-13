@@ -8,6 +8,5 @@
  */
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-resource')
     ->setSourceDir('public')
-    ->ngModule('ngResource')
     ->usePackage('larakit/sf-angular')
     ->jsPackage('angular-resource.min.js');
